@@ -9,7 +9,6 @@ namespace CleaningProjectModel.Entities
 {
     public class PersonnelHizmet:BaseEntity,IEntity
     {
-        public int PersonelHizmetID { get; set; }
         public DateTime WorkDate { get; set; }
         public int Price { get; set; }
 
