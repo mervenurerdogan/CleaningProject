@@ -24,14 +24,14 @@ namespace CleaningProjectDataAccess.Mapping
             builder.ToTable("TeklifAls");
 
             //foreing key
-            builder.HasOne<Hizmet>(h => h.Hizmet).WithMany(t => t.TeklifAls).HasForeignKey(t => t.HizmetID);
-            builder.HasOne<Ilce>(i => i.Ilce).WithMany(t => t.TeklifAls).HasForeignKey(t => t.IlceID);
+            builder.HasOne<Hizmet>(h => h.Hizmet).WithMany(t => t.TeklifAls).HasForeignKey(t => t.TeklifHizmetID);
+            builder.HasOne<Ilce>(i => i.Ilce).WithMany(t => t.TeklifAls).HasForeignKey(t => t.TeklifIlceID);
 
             builder.HasData(new TeklifAl
             {
                 TeklifID = 1,
-                HizmetID = 1,
-                IlceID = 1,
+                TeklifHizmetID = 1,
+                TeklifIlceID = 1,
                 IsActive = true,
                 IsDeleted = false,
                 Name = "Nur",
