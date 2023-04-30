@@ -19,9 +19,9 @@ namespace CleaningProjectModel.Entities
         public string Address { get; set; }
 
         //foreign Key
-        public int HizmetID { get; set; }
+        public int TeklifHizmetID { get; set; }
         public virtual Hizmet Hizmet { get; set; }
-        public int IlceID { get; set; }
+        public int TeklifIlceID { get; set; }
         public virtual  Ilce Ilce { get; set; }
 
         public virtual ICollection<PersonnelHizmet> PersonnelHizmets { get; set; }

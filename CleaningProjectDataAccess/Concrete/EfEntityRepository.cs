@@ -11,6 +11,7 @@ namespace CleaningProjectDataAccess.Concrete
 {
     public class EfEntityRepository<Tablo> : IEntityRepository<Tablo> where Tablo : class, IEntity, new()
     {
+      
         public void Add(Tablo tablo)
         {
             using var context = new CleaningProjectDbContext();

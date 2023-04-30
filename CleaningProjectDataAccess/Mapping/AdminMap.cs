@@ -25,10 +25,10 @@ namespace CleaningProjectDataAccess.Mapping
             builder.HasData(new Admin
             {
                 AdminID=1,
-                Name="Ramazan",
-                Surname="Erdoğan",
-                UserName="Erdogan68",
-                Password="E68r68.",
+                Name="admin",
+                Surname="adminss",
+                UserName="admin963",
+                Password="96321.",
                 IsActive=true,
                 IsDeleted=false,
                 CreatedDate=DateTime.Now,
