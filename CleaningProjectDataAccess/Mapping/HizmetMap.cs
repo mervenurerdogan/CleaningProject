@@ -24,6 +24,7 @@ namespace CleaningProjectDataAccess.Mapping
                 HizmetID=1,
                 Name="Ev Temziliği",
                 Desciption="Açıklama hizmet detayları ",
+                img_path="img.png",
                 CreatedDate=DateTime.Now,
                 IsDeleted=false,
                 IsActive=true,

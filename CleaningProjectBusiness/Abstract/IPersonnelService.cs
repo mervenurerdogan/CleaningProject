@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CleaningProjectBusiness.Abstract
 {
-    public interface IPersonnelService : IBaseService<Personnel>
+    public interface IPersonnelService:IBaseService<Personnel>
     {
     }
 }

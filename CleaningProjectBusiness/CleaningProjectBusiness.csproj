@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Concrete\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\CleaningProjectCore\CleaningProjectCore.csproj" />
     <ProjectReference Include="..\CleaningProjectDataAccess\CleaningProjectDataAccess.csproj" />
     <ProjectReference Include="..\CleaningProjectModel\CleaningProjectModel.csproj" />

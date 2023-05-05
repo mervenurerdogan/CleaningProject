@@ -12,6 +12,7 @@ namespace CleaningProjectModel.Entities
         public int HizmetID { get; set; }
         public string Name { get; set; }
         public string Desciption { get; set; }
+        public string img_path { get; set; }
 
 
         public virtual ICollection<TeklifAl> TeklifAls { get; set; }
